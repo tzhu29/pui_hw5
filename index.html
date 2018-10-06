@@ -2,46 +2,56 @@
 <html>
 <head>
 <title>Fluff Stuff</title>
-<link rel="stylesheet" type="text/css" href="stylesheet_home.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Kaushan Script';font-size: 22px;
-}
-</style>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
 <body>
 
     <div class="login">
         <img src="person_icon_2.png" alt="person icon" width="20" height="20">
-        <a href="#home">Login</a> |
-
+        <a href="#home" style="padding-right: 3px">Login</a><a>|</a>
         <a href="#home">Sign-up</a>
     </div>
-    <h1 class="title">Fluff Stuff</h1>
-    <div class="topnav">
-        <a href="#home">Furniture</a> |
-        <a href="#news">Decor</a> |
-        <a href="#contact">Art</a> |
-        <a href="#about">Lighting</a>
+    <div class="cart-icon">
+      <img src="cart icon.png" alt="cart icon">
+    </div>
 
+    <h1 class="title"><a href="index.html">Fluff Stuff</a></h1>
+
+    <div class="topnav">
+      <div class="menu">
+        <a href="#home">Furniture</a><p>|</p>
+        <div class="dropdown">
+          <a class="dropbtn">Decor</a><p>|</p>
+          <div class="dropdown-content">
+            <a href="#">Vases</a>
+            <a href="#">Planters</a>
+            <a href="product_list.html">Pillows</a>
+            <a href="#">Table Sets</a>
+          </div>
+        </div>
+        <a href="#news">Art</a><p>|</p>
+        <a href="#news">Lighting</a>
+      </div>
+      <div class="search-module">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Submit</button>
+      </div>
     </div>
 
 
-    <div class="hero-image">
+    <div class="hero-image hero-image-home">
       <div class="hero-text">
         <h1>100+ New Pillow Arrivals!</h1>
-        <button>Shop now ></button>
+        <a class="shop-now" href="product_list.html">Shop now ></a>
       </div>
     </div>
-    <div class="row">
-      <div class="column">
-        <img src="faux%20fur%20page%201.jpg" alt="fur" style="width:33%">
-      </div>
-      <div class="column">
-        <img src="ikea%20page%201.png" alt="ikea" style="width:66%">
-      </div>
+    <div class="home-table">
+        <img src="faux%20fur%20page%201.jpg" alt="fur" style="width: 33%">
+        <img src="ikea%20page%201.png" alt="ikea" style="width: 66%">
     </div>
 </body>
 </html>
