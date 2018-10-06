@@ -21,6 +21,10 @@ h1 {
     font-family: "Kaushan Script";
 }
 
+.title{
+    display: inline-block;
+}
+
 h1 a {
     text-decoration: none;
     color: black;
@@ -32,9 +36,12 @@ body, html {
 }
 
 /* The hero image */
-.hero-image {
-    /* Set a specific height */
-    height: 50%;
+
+
+.hero-image-product-list {
+    background-image: url("hero_image_product_list.jpg");
+        /* Set a specific height */
+    height: 40%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -43,16 +50,32 @@ body, html {
     position: relative;
 }
 
-.hero-image-product-list {
-    background-image: url("hero_image_product_list.jpg")
-}
-
 .hero-image-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero image page 1.svg")
+    background-image: url("hero image page 1.svg");
+        /* Set a specific height */
+    height: 60%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
+
+.hero-text-home {
+    position: absolute;
+    text-align: right;
+    top: 5%;
+    right: 2%;
+    color: #4C4B4C;
+    text-shadow: 2px 2px white;
+
+}
 /* Place text in the middle of the image */
-.hero-text {
+
+
+.hero-text-list {
     text-align: right;
     float: right;
     position: absolute;
@@ -64,7 +87,7 @@ body, html {
 }
 
 .shop-now {
-    color: white;
+    color: #4C4B4C;
     font-family: "Kaushan Script";
 }
 
@@ -116,7 +139,8 @@ body, html {
 
 /* Add a red background color to navbar links on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
+  color: #F08C7D;
+  text-decoration: underline;
 }
 
 /* Dropdown content (hidden by default) code from W3Schools*/
@@ -153,7 +177,24 @@ body, html {
     display: inline-block;
     position: absolute;
     right: 5px;
-    padding: 10px 0 10px 0;
+    padding: 30px 0 10px 0;
+}
+
+.search-module input {
+    background-color: #E5E5E5;
+    height: 29px;
+    border: none;
+    vertical-align: bottom;
+    margin-right: -1px;
+}
+
+.search-module button {
+    background-color: #E5E5E5;
+    border: none;
+    margin-bottom: 0;
+    padding-top: 3px;
+    margin-left: -3px;
+    margin-right: 5px;
 }
 
 .left-nav {
@@ -162,8 +203,25 @@ body, html {
     vertical-align: top;
 }
 
-.main {
+.gallery {
+    width: 70%;
     display: inline-block;
+}
+
+.gallery-row {
+    width: 100%
+}
+
+.gallery-column {
+    margin: 5px;
+    width: 45%;
+    border: none;
+    display: inline-block;
+}
+
+.gallery-column img {
+    width: 100%;
+    height: auto;
 }
 
 .accordion {
@@ -173,9 +231,14 @@ body, html {
     padding: 18px;
     width: 100%;
     text-align: left;
-    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3a3a3a;
     outline: none;
     transition: 0.4s;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -187,8 +250,22 @@ body, html {
 .panel {
     padding: 0 18px;
     background-color: white;
-    display: none;
-    overflow: hidden;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3a3a3a;
+}
+
+.carat_down{
+    width: 20px;
+    height: 10px;
+    float: right;
+}
+
+.carat_icon{
+    width: 10px;
+    height: 20px;
+    float: right;
 }
 
 h2.pillow-styles {
@@ -196,23 +273,16 @@ h2.pillow-styles {
     font-family: 'Open Sans', sans-serif;
 }
 
-div.gallery {
-    margin: 5px;
-    width: 180px;
-    border: 1px solid #ccc;
-    float: left;
-
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
 div.desc {
     padding: 15px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.desc a {
+    text-decoration: none;
+    color: black;
 }
 
 .home-table img {
@@ -225,16 +295,48 @@ div.desc {
     width: 25%;
     display: inline-block;
     vertical-align: top;
-    float: left;
+}
+
+.round-pillow img {
+    width: 100%;
 }
 
 .price {
-    color: blue;
+    color: #F76E6E;
+    font-weight: bold;
 }
 
 .product-details {
-    float: right;
+    width: 50%;
+    display: inline-block;
+    margin-left: 80px;
 }
+
+.centered {
+    text-align: center;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.quantity {
+    display: inline-block;
+}
+
+.add-to-cart {
+    display: inline-block;
+}
+
+.pink-button {
+    background-color: #F1C8C8;
+    border-radius: 4px;
+    height: 30px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 12px;
+}
+
 
 
 
