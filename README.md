@@ -2,6 +2,8 @@
 
 Quick notes on website function:
 
+Relevant files are titled: index.html, product_page.html, product_list.html, sign_in_page.html, stylesheet.css
+
 1. On the homepage, you can get to the product list page by either clicking on the “Shop Now” link 
 on the hero image, or by going to “Pillows” in the “Decor” dropdown.
 
