@@ -39,27 +39,25 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* The hero image */
-
-
+/* Hero image code from W3Schools*/
 .hero-image-product-list {
     background-image: url("hero_image_product_list.jpg");
         /* Set a specific height */
     height: 40%;
 
-    /* Position and center the image to scale nicely on all screens */
+    /* Position and center the image to scale nicely
+    on all screens from W3Schools*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
+/* Position and center the image to scale nicely on
+all screens from W3Schools*/
 .hero-image-home {
     background-image: url("hero image page 1.svg");
-        /* Set a specific height */
     height: 60%;
-
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,9 +74,9 @@ body, html {
     text-shadow: 2px 2px white;
 
 }
-/* Place text in the middle of the image */
 
-
+/* Place product list page hero text in the
+middle of the image */
 .hero-text-list {
     text-align: right;
     float: right;
@@ -129,7 +127,7 @@ body, html {
   overflow: hidden;
 }
 
-/* Dropdown button */
+/* Dropdown button code from W3Schools*/
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -141,7 +139,7 @@ body, html {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Making the text pink and underlined when you hover*/
 .topnav a:hover, .dropdown:hover .dropbtn {
   color: #F08C7D;
   text-decoration: underline;
@@ -167,7 +165,8 @@ body, html {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* Add a grey background color to dropdown
+links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
@@ -228,6 +227,7 @@ body, html {
     height: auto;
 }
 
+/*following two accordion related style blocks from W3Schools*/
 .accordion {
     background-color: #eee;
     color: #444;
@@ -245,7 +245,8 @@ body, html {
     font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button
+when you move the mouse over it (hover) */
 .active, .accordion:hover {
     background-color: #ccc;
 }
@@ -260,12 +261,14 @@ body, html {
     border-color: #3a3a3a;
 }
 
+/*styling carat downfacing icon*/
 .carat_down{
     width: 20px;
     height: 10px;
     float: right;
 }
 
+/*styling carat sidefacing icon*/
 .carat_icon{
     width: 10px;
     height: 20px;
